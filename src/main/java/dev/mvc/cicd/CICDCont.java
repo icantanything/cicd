@@ -34,8 +34,10 @@ public class CICDCont {
     } else if (sw == 3) {
       msg = "/cide Github action + EC2 최종 테스트1";
       log.info(msg);
+    } else if (sw == 4) {
+      msg = "/cicd Github action + EC2 최종 테스트 2";
+      log.info(msg);
     }
-
     
     return "<h3>" + msg + "</h3>";
   }
